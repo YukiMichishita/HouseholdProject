@@ -4,6 +4,9 @@ from .views import RefrigeratorAddview
 from .views import GroceryAddview
 from .views import UnitAddview
 from .forms import RefrigeratorForm
+import sys
+
+print(sys.executable)
 
 
 app_name = 'Householdapp'

@@ -1,0 +1,45 @@
+@media screen and (max-width:600px) {
+	* {
+		float: none;
+		position: relative;
+	}
+	
+	table {
+		top: 100px; left:20px;
+	}	
+	td, th {
+		padding: 10px;
+		width: 140px;
+		height: 15px;
+	}
+ 
+}
+
+@media screen and (min-width:601px) {
+	table {
+		position: absolute; top: 100px; left:200px;
+	}
+	
+	table , td, th {
+		z-index: 100;
+		font-family:Arial, 'arial black', sans-serif;
+	
+	}
+	td, th {
+		padding: 10px;
+		width: 200px;
+		height: 15px;
+	}
+}
+
+th {
+	background: white url("/static/images/backgrounds/02-whitepaper.png") repeat;
+	background-size: 200px;
+}
+
+body {
+	background: white url("/static/images/backgrounds/003-granulated-loom.png") repeat;
+	background-size: 200px;
+}
+
+
