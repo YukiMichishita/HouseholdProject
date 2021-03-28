@@ -13,14 +13,14 @@
 /****メニュー開閉ボタン****/
 #menu div{
 	/*デザイン*/
-	width: 30px;
-	height: 30px;
+	width: 40px;
+	height: 40px;
 	background-image: url("/static/images/icon/MenuBotton.jpeg");
 	background-size: cover;
 	/*配置*/
 	overflow: hidden;
 	position: absolute;
-	right: 35px;
+	right: 15px;
 }
 
 #menu .menuopen{
@@ -98,11 +98,11 @@
 	}
 	
 	table {
-		top: 100px; left:20px;
+		top: 40px; left:20px;
 	}	
 	td, th {
 		padding: 10px;
-		width: 120px;
+		width: 110px;
 		height: 15px;
 	}
  
